@@ -1,10 +1,6 @@
-# Example xrp-ledger.toml file. These contents should not be considered
-# authoritative for any real entity or business.
-# Note: all fields and all sections are optional.
-
 [[VALIDATORS]]
 public_key = "nHBA1Lk3rwhjHAa4LpzmWbTHJ7UXsw7eitdbwYd1ZNQxg47JoGbc"
-attestation = "A59AB577E14A7BEC053752ABFE78C3DED6DCEC81A7C41DF1931BC61742BB4FAEAA0D4F1C1EAE5BC74F6D68A3B26C8A223EA2492A5BD18D51F8AC7F4A97DFBE0C"
+attestation = "4618135620B3ACC797CA8AF6AB415EE2B4FE16847CEC444E0F2E9D2595121CEA67170BB5B4E87D32B474FBC9754D0A97571FEA1D4A6827DC98A7EBE5C303BA02"
 network = "main"
 owner_country = "us"
 server_country = "us"
@@ -38,15 +34,7 @@ network = "testnet"
 desc = "Test Net public server cluster"
 
 [[PRINCIPALS]]
-name = "Rome Reginelli" # Primary spec author
-email = "rome@example.com" # Not my real email address
-social_1 = "https://website.tld/username" # Social media username/handle as an alternative way to connect
-
-[[CURRENCIES]]
-code = "LOL"
-issuer = "rf1BiGeXwwQoi8Z2ueFYTEXSwuJYfV2Jpn"
-network = "testnet"
-display_decimals = 2
-symbol = "😆" # In practical situations, it may be unwise to use emoji
+name = "Brett Salyer" # Primary spec author
+email = "brettsalyer@gmail.com" # Not my real email address
 
 # End of file
